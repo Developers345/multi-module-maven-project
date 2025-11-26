@@ -192,3 +192,7 @@ maven-central-repo
 # Pictorial Respentation for Maven Multi-Module Project Structure – rapido
 
 <img width="1752" height="2000" alt="20250518_MULTI_MAVEN_PROJ" src="https://github.com/user-attachments/assets/fce98195-7d87-4c87-8a31-9e6fcdbf8e10" />
+
+# Command for generate maven project in command prompt 
+
+mvn archetype:generate -DgroupId=boot -DartifactId=boot-init -Dversion=1.0.0-SNAPSHOT -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.5
